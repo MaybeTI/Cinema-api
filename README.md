@@ -14,7 +14,7 @@ export DB_HOST=DB_HOST
 export DB_NAME=DB_NAME
 export DB_USER=DB_USER
 export DB_PASSWORD=DB_PASSWORD
-export DB_SECRET_KEY=DB_SECRET_KEY
+export SECRET_KEY=SECRET_KEY
 python manage.py migrate
 python manage.py runserver
 ```
@@ -32,6 +32,17 @@ docker-compose up
 
 - create user /api/user/register/
 - get access token /api/user/token/
+
+# Endpoints
+
+![img.png](img.png)
+![img_1.png](img_1.png)
+Filter for movie_ sessions
+![img_2.png](img_2.png)
+Filter for movies
+![img_3.png](img_3.png)
+Filter for orders
+![img_4.png](img_4.png)
 
 # Features
 
