@@ -4,7 +4,7 @@ API service for cinema management written on DRF
 
 
 ```shell
-git clone https://github.com/manjustice/cinema-api
+git clone https://github.com/MaybeTI/Cinema-api.git
 cd cinema-api
 python -m venv venv
 venv\Scripts\activate (on Windows)
